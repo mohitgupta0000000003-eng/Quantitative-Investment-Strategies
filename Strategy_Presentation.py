@@ -18,35 +18,35 @@ st.set_page_config(
 # Strategy Configuration - This is where you add/remove strategies
 STRATEGY_CONFIG = {
     "Momentum500 Basket": {
-        "nav_file": r"C:\Users\hp\Downloads\Strategy\3_Quant_Monthly_Strategy_Momentum\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx",
+        "nav_file": r"3_Quant_Monthly_Strategy_Momentum\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx",
         "sheet_name": "Stock_NAV"
     },
     # Add more strategies here as needed:
      "LargeCap Basket": {
-         "nav_file": r"C:\Users\hp\Downloads\Strategy\4_Quant_Monthly_Strategy_Momentum_Top100\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx",
+         "nav_file": r"4_Quant_Monthly_Strategy_Momentum_Top100\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx",
          "sheet_name": "Stock_NAV"
     },
     "Midcap Basket": {
-         "nav_file": r"C:\Users\hp\Downloads\Strategy\5_Quant_Monthly_Strategy_Momentum_Mid150\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx", 
+         "nav_file": r"5_Quant_Monthly_Strategy_Momentum_Mid150\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx", 
          "sheet_name": "Stock_NAV"
      },
      "Large&Midcap Basket": {
-         "nav_file": r"C:\Users\hp\Downloads\Strategy\6_Quant_Monthly_Strategy_Momentum_Top200\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx", 
+         "nav_file": r"6_Quant_Monthly_Strategy_Momentum_Top200\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx", 
          "sheet_name": "Stock_NAV"
      },
           "LowVol_Adjusted_Basket": {
-         "nav_file": r"C:\Users\hp\Downloads\Strategy\7_Quant_Monthly_Strategy_Low_Volatility_Adjusted\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx", 
+         "nav_file": r"7_Quant_Monthly_Strategy_Low_Volatility_Adjusted\7_NAV Calculator\Portfolio_Daily_Returns_NAV.xlsx", 
          "sheet_name": "Stock_NAV"
      }
 }
 
 # Common data files (same for all strategies)
 COMMON_DATA = {
-    "price_file": r"C:\Users\hp\Downloads\Strategy\daily_data.parquet",
-    "nifty50_path": r"C:\Users\hp\Downloads\Strategy\NIFTY_1DAY_2015-01-01_to_2025-11-10.csv",
-    "nifty500_path": r"C:\Users\hp\Downloads\Strategy\NIFTY500_1DAY_2015-01-01_to_2025-11-11.csv",
-    "midcap150_path": r"C:\Users\hp\Downloads\Strategy\NIFTYMIDCAP150_1DAY_2015-01-01_to_2025-11-11.csv",
-    "nifty200mo30_path": r"C:\Users\hp\Downloads\Strategy\NIFTY200Momentum30_1DAY_2015-01-01_to_2025-11-11.csv"
+    "price_file": r"daily_data.parquet",
+    "nifty50_path": r"NIFTY_1DAY_2015-01-01_to_2025-11-10.csv",
+    "nifty500_path": r"NIFTY500_1DAY_2015-01-01_to_2025-11-11.csv",
+    "midcap150_path": r"NIFTYMIDCAP150_1DAY_2015-01-01_to_2025-11-11.csv",
+    "nifty200mo30_path": r"NIFTY200Momentum30_1DAY_2015-01-01_to_2025-11-11.csv"
 }
 
 @st.cache_data
